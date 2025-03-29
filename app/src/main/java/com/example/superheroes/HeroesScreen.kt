@@ -75,6 +75,7 @@ fun SuperheroList(modifier: Modifier = Modifier) {
         contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp),
         horizontalAlignment = Alignment.Start,
+        modifier = modifier
     ) {
         items(heroes.size) { index ->
             SuperheroListItem(
